@@ -1,0 +1,35 @@
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+    197/200      2.35G      0.266     0.1685     0.7908          2        640: 100%|██████████| 92/92 [00:10<00:00,  8.66it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 5/5 [00:00<00:00,  7.22it/s]
+                   all        131        131      0.991      0.992      0.992      0.867
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+    198/200      2.35G     0.2624     0.1676     0.7895          2        640: 100%|██████████| 92/92 [00:10<00:00,  8.37it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 5/5 [00:00<00:00,  8.02it/s]
+                   all        131        131      0.991      0.992      0.992      0.862
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+    199/200      2.35G     0.2578     0.1637      0.789          2        640: 100%|██████████| 92/92 [00:10<00:00,  8.40it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 5/5 [00:00<00:00,  7.14it/s]
+                   all        131        131      0.991      0.992      0.994      0.864
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+    200/200      2.35G     0.2556     0.1658     0.7823          2        640: 100%|██████████| 92/92 [00:11<00:00,  8.35it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 5/5 [00:00<00:00,  7.31it/s]
+                   all        131        131      0.991      0.992      0.994      0.864
+
+200 epochs completed in 0.620 hours.
+Optimizer stripped from /mnt/d/works/phone_patrol/runs/detect/train4/weights/last.pt, 4.7MB
+Optimizer stripped from /mnt/d/works/phone_patrol/runs/detect/train4/weights/best.pt, 4.7MB
+
+Validating /mnt/d/works/phone_patrol/runs/detect/train4/weights/best.pt...
+Ultralytics 8.3.7 🚀 Python-3.12.3 torch-2.4.1+cu121 CUDA:0 (NVIDIA GeForce RTX 4060 Laptop GPU, 8188MiB)
+YOLOv5n summary (fused): 211 layers, 2,182,054 parameters, 0 gradients, 5.8 GFLOPs
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 5/5 [00:03<00:00,  1.64it/s]
+                   all        131        131      0.985      0.985      0.992      0.873
+     person_with_phone         60         60          1       0.97       0.99      0.886
+  person_without_phone         71         71      0.969          1      0.993       0.86
+Speed: 0.9ms preprocess, 11.5ms inference, 0.0ms loss, 3.5ms postprocess per image
+Results saved to /mnt/d/works/phone_patrol/runs/detect/train4
+💡 Learn more at https://docs.ultralytics.com/modes/train
